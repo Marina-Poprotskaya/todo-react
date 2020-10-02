@@ -4,18 +4,11 @@ import './style.css';
 
 
 class Header extends React.Component {
-    // constructor(props) {
-    //     super(props);
-    // }
-
-    // this.state = {
-
-    // }
 
     render() {
         return (
             <div className='header'>
-                <Form />
+                <Form onSubmit={this.props.onSubmit}/>
             </div>
         )
     }

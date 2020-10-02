@@ -7,6 +7,11 @@ html {
   font-size: 10px;
 }
 
+body {
+  position: relative;
+  height: 100vh;
+}
+
 .site {
   height: 100%;
 }

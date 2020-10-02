@@ -10,7 +10,7 @@ render() {
             <div className="buttons-wrapper">
               <button className="btn up"></button>
               <button className="btn down"></button>
-              <button className="btn fix"></button>
+              <button onClick={() => this.props.onCorrect(this.props.id)} className="btn fix"></button>
               <button onClick={() => this.props.onDeleted(this.props.id)} className="btn del"></button>
             </div>
           </div>
